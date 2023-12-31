@@ -1,0 +1,2 @@
+docker build -t myappstream .
+docker run -e PORT=80 -p "4000:80" myappstream
